@@ -26,3 +26,9 @@ let fccRegex = /freecodecamp/i; // Change this line
 let result4 = fccRegex.test(myStringW);
 console.log("Ignore Case While Matching")
 console.log(result4)
+
+//Extract Matches
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result5 = extractStr.match(codingRegex); // Change this line
+console.log(result5)
