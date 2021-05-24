@@ -82,3 +82,10 @@ let myRegex5 = /s+/ig; // Change this line
 let result12 = difficultSpelling.match(myRegex5);
 console.log("Match Characters that Occur One or More Times")
 console.log(result12)
+
+//Match Characters that Occur Zero or More TimesPassed
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!"
+let chewieRegex = /Aa*/ //Change this line
+let result13 = chewieQuote.match(chewieRegex)
+console.log("Match Characters that Occur Zero or More TimesPassed")
+console.log(result13)
